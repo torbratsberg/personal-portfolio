@@ -1,0 +1,25 @@
+.list-wrapper {
+}
+
+.list-wrapper .lists {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+}
+
+.list-wrapper .lists div {
+    margin: 20px 0;
+}
+
+.list-wrapper .lists div li {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.list-wrapper-title {
+    font-size: 64px;
+}
+
+.lists h3 {
+    font-size: 42px;
+}

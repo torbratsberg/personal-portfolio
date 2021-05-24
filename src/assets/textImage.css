@@ -1,0 +1,35 @@
+.text-image {
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .text-image {
+        flex-direction: column;
+    }
+}
+
+.text-image .title {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.text-image .text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-image .text-col {
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.text-image .image-col {
+    display: flex;
+    max-width: 39%;
+}
+
+.text-image .image-col .image {
+    max-width: 100%;
+}
