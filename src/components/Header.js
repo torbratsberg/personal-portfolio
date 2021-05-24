@@ -6,7 +6,7 @@ function Header(props) {
 
     const toggleMenu = (e) => {
         document.querySelector('.hamburger-button').classList.toggle('open');
-        if (menuWidth.width == '0') {
+        if (menuWidth.width === '0') {
             setMenuWidth({ width: '100%' });
         } else {
             setMenuWidth({ width: '0' });
