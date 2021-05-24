@@ -11,15 +11,19 @@
     margin: 20px 0;
 }
 
+ul {
+    padding-left: 22px;
+}
+
 .list-wrapper .lists div li {
     font-size: 20px;
     margin-bottom: 7px;
 }
 
 .list-wrapper-title {
-    font-size: 64px;
+    font-size: 54px;
 }
 
 .lists h3 {
-    font-size: 42px;
+    font-size: 36px;
 }

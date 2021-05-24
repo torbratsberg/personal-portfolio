@@ -17,7 +17,7 @@
 
 .button {
     padding: 15px 35px;
-    background: #2EF6C6;
+    background: #2ef6c6;
     color: #000000;
     text-decoration: none;
 }
@@ -101,6 +101,28 @@ a {
     color: #000000;
     line-height: 1.8;
     font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    z-index: 3;
+}
+
+.menu a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background: #000000;
+    transition-duration: 0.3s;
+    z-index: 2;
+}
+
+.menu a:hover::after {
+    height: 40%;
+    background: #2ef6c6;
+    opacity: 0.5;
 }
 
 .github {
