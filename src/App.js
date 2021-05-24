@@ -1,5 +1,6 @@
 import './assets/app.css';
 import orgnizerImage from './assets/orgnizer.png';
+import estimaterImage from './assets/estimater.png';
 import Header from './components/Header.js';
 import TextImage from './components/TextImage.js';
 import ListWrapper from './components/ListWrapper.js';
@@ -25,7 +26,7 @@ function App() {
                 <TextImage
                     title="Estimater"
                     text="Make estimate based on data. See how your estimates compares to time it actually took.<br><br>Full-stack project with React, Material UI, SCSS, Python, Flask and MySql"
-                    image={orgnizerImage}
+                    image={estimaterImage}
                     reverse="true"
                 />
             </div>
