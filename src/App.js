@@ -19,7 +19,6 @@ function App() {
                 <TextImage
                     title="Orgnizer"
                     text="Organizer your daily tasks using workspaces, kanban-boards and documents.<br><br>Full-stack project with React, Tailwind CSS, Python, Flask and MySql."
-                    link="https://orgnizer.torbratsberg.no"
                     image={orgnizerImage}
                 />
 
