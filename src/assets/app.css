@@ -1,25 +1,24 @@
 .app {
-    max-width: 1024px;
-    margin: auto;
-    padding: 0 20px;
-    font-family: Arial, Helvetica, sans-serif;
+	max-width: 1024px;
+	margin: auto;
+	padding: 0 20px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .section {
-    max-width: 900px;
-    margin: 250px auto 250px auto;
+	max-width: 900px;
+	margin: 150px auto 150px auto;
 }
 
 .section.small {
-    max-width: 800px;
-    margin: 200px auto 200px auto;
+	max-width: 800px;
 }
 
 .button {
-    padding: 15px 35px;
-    background: #2ef6c6;
-    color: #000000;
-    text-decoration: none;
+	padding: 15px 35px;
+	background: #2ef6c6;
+	color: #000000;
+	text-decoration: none;
 }
 
 h1,
@@ -28,107 +27,145 @@ h3,
 h4,
 p,
 a {
-    font-weight: 400;
-    margin: 0;
+	font-weight: 400;
+	margin: 0;
 }
 
 .header .right-col {
-    margin: 200px 0;
-    padding-left: 100px;
+	margin: 200px 0;
+	padding-left: 100px;
 }
 
 .header .title {
-    position: relative;
+	position: relative;
 }
 
 .header .title > h1 {
-    font-size: 72px;
-    line-height: 1.2;
-    margin: 0;
+	font-size: 72px;
+	line-height: 1.2;
+	margin: 0;
 }
 
 .header .intro {
-    font-size: 24px;
-    max-width: 40%;
-    position: relative;
-    margin-top: 40px;
+	font-size: 24px;
+	max-width: 40%;
+	position: relative;
+	margin-top: 40px;
 }
 
 .hamburger-button {
-    width: 45px;
-    height: 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    border: none;
-    background: transparent;
-    position: absolute;
-    top: 15px;
-    left: -100px;
-    padding: 10px;
-    cursor: pointer;
-    transition-duration: 0.3s;
+	width: 45px;
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	border: none;
+	background: transparent;
+	position: absolute;
+	top: 15px;
+	left: -100px;
+	padding: 10px;
+	cursor: pointer;
+	transition-duration: 0.3s;
 }
 
 .hamburger-button > span {
-    width: 100%;
-    height: 3px;
-    background: #000000;
+	width: 100%;
+	height: 3px;
+	background: #000000;
 }
 
 .hamburger-button.open {
-    transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 
 .menu {
-    overflow: hidden;
-    height: auto;
-    transition-duration: 0.5s;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #ffffff;
+	overflow: hidden;
+	height: auto;
+	transition-duration: 0.5s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #ffffff;
 }
 
 .menu > ul {
-    list-style: none;
-    padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 .menu a {
-    color: #000000;
-    line-height: 1.8;
-    font-size: 20px;
-    text-decoration: none;
-    position: relative;
-    z-index: 3;
+	color: #000000;
+	line-height: 1.8;
+	font-size: 20px;
+	text-decoration: none;
+	position: relative;
+	z-index: 3;
 }
 
 .menu a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: 2px;
-    background: #000000;
-    transition-duration: 0.3s;
-    z-index: 2;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	height: 2px;
+	background: #000000;
+	transition-duration: 0.3s;
+	z-index: 2;
 }
 
 .menu a:hover::after {
-    height: 40%;
-    background: #2ef6c6;
-    opacity: 0.5;
+	height: 40%;
+	background: #2ef6c6;
+	opacity: 0.5;
 }
 
 .github {
-    position: absolute;
-    top: 7px;
-    left: -100px;
-    width: 45px;
-    height: 45px;
+	position: absolute;
+	top: 7px;
+	left: -100px;
+	width: 45px;
+	height: 45px;
 }
+
+@media only screen and (max-width: 600px) {
+	header.header.small {
+		margin-top: 50px;
+	}
+
+	.section.small {
+		margin: 60px auto 60px auto;
+	}
+
+	.header .title h1 {
+		font-size: 42px;
+	}
+
+	.header .intro {
+		font-size: 18px;
+	}
+
+	.menu, .hamburger-button {
+		display: none;
+	}
+
+	.header .right-col {
+		margin: 0;
+		padding-left: 0;
+	}
+
+	.header .intro {
+		max-width: 100%;
+	}
+
+	.github {
+		top: auto;
+		bottom: -100px;
+		left: 0;
+	}
+}
+

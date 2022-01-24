@@ -1,35 +1,68 @@
 .text-image {
-    display: flex;
-}
-@media only screen and (max-width: 600px) {
-    .text-image {
-        flex-direction: column;
-    }
+	display: flex;
+	justify-content: space-between;
 }
 
 .text-image .title {
-    font-size: 64px;
-    margin-bottom: 20px;
+	font-size: 64px;
+	margin-bottom: 20px;
 }
 
 .text-image .text {
-    font-size: 18px;
-    margin-bottom: 20px;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
 
 .text-image .text-col {
-    max-width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-direction: column;
+	width: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	flex-direction: column;
 }
 
 .text-image .image-col {
-    display: flex;
-    max-width: 39%;
+	position: relative;
+	display: flex;
+	width: 39%;
 }
 
 .text-image .image-col .image {
-    max-width: 100%;
+	max-width: 100%;
+}
+
+.text-image .image-col .img-placeholder {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(20deg, #ffffffa0, #ff50bba0);
+}
+
+.text-image:nth-child(even) .image-col .img-placeholder {
+	background-image: linear-gradient(200deg, #ffffffa0, #2ef657a0);
+}
+
+@media only screen and (max-width: 600px) {
+	.text-image {
+		flex-direction: column;
+	}
+
+	.text-image .title {
+		font-size: 38px;
+	}
+
+	.text-image > div.text-col {
+		width: 100%;
+	}
+
+	.text-image > div.image-col {
+		width: 100%;
+	}
+
+	.text-image > div.image-col[style] {
+		width: 100%;
+	}
+
+	.img-placeholder {
+		display: none;
+	}
 }
