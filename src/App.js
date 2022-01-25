@@ -49,7 +49,6 @@ function App() {
 							</ul>
 							<li>JavaScript</li>
 							<ul>
-								<li>NodeJS</li>
 								<li>React</li>
 								<li>Vue</li>
 								<li>jQuery</li>
@@ -61,6 +60,7 @@ function App() {
 					<div>
 						<h3>Back-end</h3>
 						<ul>
+							<li>NodeJS</li>
 							<li>Go</li>
 							<li>Python</li>
 							<ul>
