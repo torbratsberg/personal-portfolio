@@ -83,8 +83,9 @@ function App() {
 					</div>
 
 					<div>
-						<h3>CMS's</h3>
+						<h3>Misc</h3>
 						<ul>
+							<li>Git</li>
 							<li>WordPress</li>
 						</ul>
 					</div>
