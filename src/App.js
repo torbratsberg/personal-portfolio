@@ -87,6 +87,7 @@ function App() {
 						<ul>
 							<li>Git</li>
 							<li>WordPress</li>
+							<li>Sanity</li>
 						</ul>
 					</div>
 				</ListWrapper>
