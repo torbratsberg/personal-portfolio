@@ -47,7 +47,7 @@ function App() {
 								<li>Zurb Foundation</li>
 								<li>TailwindCSS</li>
 							</ul>
-							<li>JavaScript</li>
+							<li>JavaScript/TypeScript</li>
 							<ul>
 								<li>Angular</li>
 								<li>React</li>
