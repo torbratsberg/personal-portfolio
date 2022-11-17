@@ -49,6 +49,7 @@ function App() {
 							</ul>
 							<li>JavaScript</li>
 							<ul>
+								<li>Angular</li>
 								<li>React</li>
 								<li>Vue</li>
 								<li>jQuery</li>
@@ -60,6 +61,8 @@ function App() {
 					<div>
 						<h3>Back-end</h3>
 						<ul>
+							<li>.NET</li>
+                            <li>C#</li>
 							<li>NodeJS</li>
 							<li>Go</li>
 							<li>Python</li>
@@ -88,6 +91,7 @@ function App() {
 							<li>Git</li>
 							<li>WordPress</li>
 							<li>Sanity</li>
+							<li>Webpack</li>
 						</ul>
 					</div>
 				</ListWrapper>
