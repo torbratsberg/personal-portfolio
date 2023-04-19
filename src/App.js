@@ -11,7 +11,7 @@ function App() {
 			<div id="start">
 				<Header
 					name="Tor<br>Bratsberg"
-					introduction="Web developer and hobby beer brewer based in Oslo."
+					introduction="Developer and hobby beer brewer based in Oslo."
 				/>
 			</div>
 
@@ -61,8 +61,10 @@ function App() {
 					<div>
 						<h3>Back-end</h3>
 						<ul>
-							<li>.NET</li>
                             <li>C#</li>
+                            <ul>
+                                <li>.NET</li>
+                            </ul>
 							<li>NodeJS</li>
 							<li>Go</li>
 							<li>Python</li>

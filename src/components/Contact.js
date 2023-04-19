@@ -4,7 +4,7 @@ function Contact(props) {
 	return (
 		<div className="contact small section" id="contact">
 			<h2>{props.title}</h2>
-			<h3>{props.email}</h3>
+			<p>{props.email}</p>
 		</div>
 	);
 }
