@@ -17,7 +17,14 @@ function App() {
 
 			<div id="projects">
 				<TextImage
+					title="Noted"
+					text="CLI Notes library, with viewer and shortcuts to edit and create new notes."
+					link="https://github.com/torbratsberg/noted"
+				/>
+
+				<TextImage
 					title="Orgnizer"
+					reverse="true"
 					text="Organizer your daily tasks using workspaces, kanban-boards and documents.<br><br>Full-stack project with React, Tailwind CSS, Python, Flask and MySql."
 					image={orgnizerImage}
 				/>
@@ -25,12 +32,12 @@ function App() {
 				<TextImage
 					title="Gitor"
 					text="Manage your Git repositories on a remove server.<br><br>CLI tool written in Go."
-					reverse="true"
 					link="https://github.com/torbratsberg/gitor"
 				/>
 
 				<TextImage
 					title="ScriptHub"
+					reverse="true"
 					text="Keep track of all the scripts scattered around your computer with ScriptHub.<br><br>CLI tool written in Go."
 					link="https://github.com/torbratsberg/scripthub"
 				/>
@@ -46,6 +53,7 @@ function App() {
 							<ul>
 								<li>Zurb Foundation</li>
 								<li>TailwindCSS</li>
+								<li>Material Design</li>
 							</ul>
 							<li>JavaScript/TypeScript</li>
 							<ul>
